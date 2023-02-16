@@ -1,0 +1,64 @@
+<div class="container">
+  <div class="row">
+    <div class="aline-center">
+<form novalidate [formGroup]="checkoutForm" (ngSubmit)="checkout()">
+
+		<div class="row">
+			<div class="col-md-8 text-right mt-3">
+				<label for="firstName">First Name: </label>
+				<input name="firstName" id="firstName" type="text"
+					formControlName="firstName" class="form-control" />
+			</div>
+      <div
+      *ngIf="checkoutForm.controls['firstName'].invalid && checkoutForm.controls['firstName'].touched"  class="error">Enter
+      a valid first name</div>
+		</div>
+
+
+
+		<div class="row">
+			<div class="col-md-8 text-right mt-3">
+				<label for="lastName">Last Name: </label>
+
+				<input name="lastName" id="lastName" type="text" class="form-control"
+					formControlName="lastName" />
+			</div>
+      <div class="text-danger"
+			*ngIf="checkoutForm.controls['lastName'].invalid && checkoutForm.controls['lastName'].touched" class="error">Enter
+			a valid last name</div>
+		</div>
+
+
+
+
+		<div class="row">
+			<div class="col-md-8 text-right mt-3">
+				<label for="email">Email: </label>
+
+				<input id="email" name="email" type="text" formControlName="email"  class="form-control" />
+			</div>
+      <div class="text-danger"
+		*ngIf="checkoutForm.controls['email'].invalid && checkoutForm.controls['email'].touched" class="error">Enter
+		a valid email address</div>
+		</div>
+
+
+
+		<div class="row">
+			<div class="col-md-8 text-right mt-3">
+				<label for="cardNumber">Card Number: </label>
+
+				<input id="cardNumber" name="cardNumber" type="text" class="form-control"
+					formControlName="cardNumber" />
+			</div>
+      <div class="text-danger"
+		*ngIf="checkoutForm.controls['cardNumber'].invalid && checkoutForm.controls['cardNumber'].touched" class="error">Enter
+		a valid card number</div>
+		</div>
+
+	<button class="btn btn-success mt-3" type="submit">CheckOut!</button>
+
+</form>
+</div>
+</div>
+</div>

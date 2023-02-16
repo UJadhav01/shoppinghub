@@ -1,0 +1,64 @@
+<header id="hh">
+  <div class="navbar navbar-dark bg-primary shadow-sm">
+    <div class="navbar-brand align-item-center d-flex">
+      <a routerLink="home" id="ship">
+      <i id="shipping-icon" class="fas fa-shipping-fast">
+      </i>&nbsp;
+      <strong id="navbar-brand-name" >ShoppingHub</strong>
+    </a>
+      <div class="form-group" >
+        <input type="text" id="searchInput" class="form-control" [(ngModel)]="searchTerm" (keyup)="searchProduct($event)" placeholder="Search products">
+      </div>
+      <span class="fas fa-search search-icon"></span>
+    </div>
+    <!-- Button trigger modal -->
+
+    <button  id="loginBtnLogin" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" type="button" *ngIf="!isLogin">Login</button>
+
+    <button  routerLink="cart" id="cartShopp" class="btn btn-primary" *ngIf="isLogin">
+      <i class="fas fa-cart-plus cart-plus"></i>
+      <div class="badge bg-danger">{{totalItems}}</div>
+    </button>
+
+    <!-- Button for navigate to home -->
+    <button id="loginBtn" class="btn btn-primary" *ngIf="isLogin" (click)="logOut()">Logout</button>
+  </div>
+</header>
+
+<!-- Modal -->
+<div class="modalDiv">
+<div class="modal fade" id="exampleModal"  aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+<div class="container">
+  <button type="button" class="btn-close" id="closeDialogonLogin" data-bs-dismiss="modal" aria-label="Close" style="margin-left: 400px;"></button>
+
+  <div class="row">
+    <div class="col-md-10">
+        <div class="text-center">
+          <h1>Login</h1>
+          <h6>Please enter user name and password !!</h6>
+        </div>
+        <form [formGroup]="loginForm">
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" formControlName="email" class="form-control" id="email" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Password</label>
+              <input type="password" formControlName="password" class="form-control" id="password">
+            </div>
+            <button type="submit" class="btn btn-primary" (click)="login()">Login</button>
+          </form>
+          <a style="margin-top:10px;text-decoration: none;" routerLink="/signup">New user? Click to signup !!</a>
+    </div>
+  </div>
+</div>
+
+    </div>
+    </div>
+  </div>
+</div>
+</div>

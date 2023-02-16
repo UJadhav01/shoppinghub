@@ -1,0 +1,80 @@
+.navbar-brand{
+  color: white;
+}
+#searchInput{
+  border-radius: 3px;
+  width: 450px;
+  margin-left: 20px;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+#ship{
+  text-decoration: none;
+  color: white;
+}
+a #shipping-icon{
+  font-size: 40px;
+  margin-left: 50px;
+}
+a #navbar-brand-name{
+  font-size: 28px;
+}
+.form-control::placeholder{
+  color: white;
+}
+
+.search-icon{
+  position: absolute;
+  z-index: 1;
+  right: 52%;
+  top: 22px;
+  color:white;
+}
+#cartShopp{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-left:450px;
+}
+.cart-plus{
+  font-size: 30px;
+}
+.bg-danger{
+  font-size: 10px;
+  margin-right: 10px;
+}
+#loginBtn{
+  background-color: transparent;
+  border: none;
+  margin-right: 20px;
+  font-weight: 900;
+}
+
+
+
+.modal-dialog{
+  border: none;
+  width: 500px;
+  padding: 10px;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  align-content: center;
+background-color: rgb(169, 187, 191);
+transform: translate(-50%,-50%);
+}
+.modal-content{
+  background-color: transparent;
+  border: none;
+}
+#loginBtnLogin{
+  background-color: transparent;
+  border: none;
+  margin-right: 600px;
+
+  font-weight: 900;
+}
+.container{
+  margin-top: 10px;
+}

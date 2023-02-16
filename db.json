@@ -1,0 +1,112 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Laptop",
+      "price": 45499,
+      "description": "Ideapod gaming laptop,it is light weight and easy to use",
+      "category": "electronics",
+      "image": "https://cdn1.smartprix.com/rx-i4U4FAoxX-w1200-h1200/4U4FAoxX.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Iphone 30",
+      "price": 53540,
+      "description": "IPhone 30 is the new series of IPhone with extraordinary feature like camera,music,storage",
+      "category": "electronics",
+      "image": "https://assets.tatacliq.com/medias/sys_master/images/33131150409758.jpg"
+    },
+    {
+      "id": 3,
+      "title": "HeadPhones",
+      "price": 2999,
+      "description": "Sony headphones with excellent sound quality",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/61WFNqf8hVL._SL1500_.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Nikkon Camera",
+      "price": 64777,
+      "description": "Nikkon camera gives you feel like sky,it has excellent quality of picture",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/81WtQ64-SOL._SX355_.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Kurti",
+      "price": 499,
+      "description": "Full sleeves kurti in minimum price",
+      "category": "women's clothing",
+      "image": "https://www.shutterstock.com/image-photo/young-happy-beautiful-curly-brunette-260nw-443178784.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Kids Wear",
+      "price": 1644,
+      "description": "Kids dress with quality clothes from babyhug",
+      "category": "kid's clothing",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2020/9/KK/WE/FQ/37262215/25-1-500x500.PNG"
+    },
+    {
+      "id": 7,
+      "title": "Kids Suite",
+      "price": 1140,
+      "description": "Suit for 2-3 year kid ",
+      "category": "kid's clothing",
+      "image": "https://n2.sdlcdn.com/imgs/i/w/1/spring-autumn-Baby-boy-clothing-SDL664240872-1-b1799.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Dungry",
+      "price": 999,
+      "description": "full pant dungry for above 14 years girls",
+      "category": "women's clothing",
+      "image": "https://i.pinimg.com/564x/5b/6e/2f/5b6e2f017d846194a9cec9ca22ac9e5b.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Gold ring",
+      "price": 22430,
+      "description": "1.5 gram gold ring from tanishq",
+      "category": "jewellery",
+      "image": "https://cdn.caratlane.com/media/catalog/product/cache/6/image/480x480/9df78eab33525d08d6e5fb8d27136e95/J/R/JR04293-YGP900_11_listfront.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Gold Earrings",
+      "price": 66640,
+      "description": "11 gram gold earrings with beautiful design with extra 5% off",
+      "category": "jewellery",
+      "image": "https://3.imimg.com/data3/VM/FC/MY-1757304/gold-silver-jewlry-lemon-500x500.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Fancy Neckless",
+      "price": 1400,
+      "description": "beautiful neckless with earrings for functional use",
+      "category": "jewellery",
+      "image": "https://m.media-amazon.com/images/I/81aUa3LrDzL._UL1500_.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Wedding Wear",
+      "price": 3500,
+      "description": "Full combos off neckless for weddings season",
+      "category": "jewellery",
+      "image": "https://m.media-amazon.com/images/I/91rNZHqCTuL._UY500_.jpg"
+    }
+  ],
+  "signUpUsers": [
+    {
+      "fullName": "Shivanshi Kale",
+      "mobileNumber": 9960265114,
+      "email": "test@test.com",
+      "password": "shiv123",
+      "id": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

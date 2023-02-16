@@ -1,0 +1,13 @@
+
+.card{
+  margin-top: 22px;
+  border: none;
+  width: 500px;
+  padding: 40px;
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgba(28, 79, 129, 0.1);
+  background: linear-gradient(90deg,rgba(28, 79, 129, 0.1) 0%,rgba(30, 90, 130, 0.1)100%);
+}
